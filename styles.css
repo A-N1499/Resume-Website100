@@ -1,0 +1,132 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  text-align: center;
+  background: #2c3e50;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+header hr {
+  border: 0;
+  height: 1px;
+  background: #fff;
+  width: 80%;
+  margin: 10px auto;
+}
+
+/* Layout */
+main {
+  display: flex;
+  justify-content: start;      /* align to left */
+  gap: 40px;                   /* space between columns */
+  padding: 20px 0 20px 20px;   /* reduce left margin */
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+#mainLeft,
+#mainRight {
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#mainLeft {
+  width: 30%;
+  background: #ecf0f1;
+}
+
+#mainRight {
+  width: 65%;
+}
+
+/* Headings */
+h2 {
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  color: #2980b9;
+}
+
+h3 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+/* Links and Icons */
+a {
+  text-decoration: none;
+  color: #3498db;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #2980b9;
+}
+
+#mainLeft section i {
+  color: #3498db;
+  margin-right: 10px;
+}
+
+/* Lists */
+ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Grades Table */
+.grades-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: #fdfefe;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.grades-table th,
+.grades-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.grades-table th {
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.grades-table tr:nth-child(even) {
+  background-color: #f2f9ff;
+}
+
+.grades-table tr:hover {
+  background-color: #e8f4ff;
+}
+
+.grades-table td:last-child {
+  font-weight: bold;
+  color: #2c3e50;
+}
